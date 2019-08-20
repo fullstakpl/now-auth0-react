@@ -1,3 +1,16 @@
+Ten projekt powstał na potrzeby nakręcenia tutoriala o Now.sh + Auth0 + Node.js + React.
+Materiał znajduje się na kanale [https://www.youtube.com/c/ArturChmaro](https://www.youtube.com/c/ArturChmaro)
+
+## Instrukcja
+* `npm install` wewnątrz tego projektu
+* `npm install now -g`
+* `now login` zaloguj się do Now.sh
+* Załóż konto na Auth0
+* Skonfiguruj swój projekt Auth0 by zezwalał na przekierowanie do `http://localhost:3000/api/callback`
+* Utwórz nowy plik `.env` na bazie `.env.example`
+* `now dev`
+
+---
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
